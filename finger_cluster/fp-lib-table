@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cluster")(type "KiCad")(uri "${KIPRJMOD}/cluster.pretty")(options "")(descr ""))
+)
