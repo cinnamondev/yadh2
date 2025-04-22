@@ -2439,7 +2439,7 @@
 	(footprint "Symbol:OSHW-Symbol_8.9x8mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "1d324332-d901-4582-900e-130ca98bcb74")
-		(at 85 40 180)
+		(at 85.09 40.7416 180)
 		(descr "Open Source Hardware Symbol")
 		(tags "Logo Symbol OSHW")
 		(property "Reference" "REF**"
@@ -3193,6 +3193,17 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 100 50)
+		(end 105 50)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e86618b7-b36e-4a5e-8d76-2e4f3a648b59")
+	)
 	(gr_line
 		(start 84 96)
 		(end 78.5 51)
@@ -3484,20 +3495,12 @@
 		)
 	)
 	(segment
-		(start 93.1965 75.692)
-		(end 93.1965 77.0675)
+		(start 93.218 74.549)
+		(end 93.234 74.533)
 		(width 0.4064)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "02676e76-f50a-4d31-9612-7fec0c48c230")
-	)
-	(segment
-		(start 93.234 72.025)
-		(end 93.218 72.009)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "0b55f42f-2e89-4bc3-8708-641ab88c1217")
+		(uuid "0f5f5d0c-ec4f-4a52-9a42-da6094e667d0")
 	)
 	(segment
 		(start 102.8192 80)
@@ -3508,6 +3511,14 @@
 		(uuid "11e71bd2-db96-4b31-a2e2-85bcd375e096")
 	)
 	(segment
+		(start 93.1965 74.5705)
+		(end 93.1965 75.692)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "3c6239df-47c5-4455-81dc-557f576909f6")
+	)
+	(segment
 		(start 102.8192 79.05)
 		(end 101.35 79.05)
 		(width 0.4064)
@@ -3516,20 +3527,12 @@
 		(uuid "62cd30af-111c-4861-a256-f5df43538d67")
 	)
 	(segment
-		(start 93.234 73.533)
-		(end 93.234 72.025)
+		(start 93.234 74.533)
+		(end 93.234 73.533)
 		(width 0.4064)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "a61ba32c-fc33-4c12-8f79-8ff833f13be8")
-	)
-	(segment
-		(start 93.1965 77.0675)
-		(end 93.218 77.089)
-		(width 0.4064)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "b8a73c75-f3fc-495a-bbe5-f75f9a14779f")
+		(uuid "6aa5ec7c-a463-4a2a-aa6a-b5c17acca3f5")
 	)
 	(segment
 		(start 101.4945 77.089)
@@ -3538,6 +3541,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "e88a319b-f2a9-4085-b2c0-70e8cc6b6206")
+	)
+	(segment
+		(start 93.218 74.549)
+		(end 93.1965 74.5705)
+		(width 0.4064)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "ea603f52-3cc4-4a98-9b4a-73bedfc6a18d")
 	)
 	(via
 		(at 102.8192 80)
@@ -3564,20 +3575,12 @@
 		(uuid "15cb0eec-56fd-4dab-b433-d83007c39368")
 	)
 	(via
-		(at 93.218 77.089)
+		(at 93.218 74.549)
 		(size 0.6096)
 		(drill 0.3048)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
-		(uuid "c6529b34-3eeb-49b1-8d98-c3cb42de9392")
-	)
-	(via
-		(at 93.218 72.009)
-		(size 0.6096)
-		(drill 0.3048)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "d09a1fe8-9910-4818-9932-ae130429bb69")
+		(uuid "177f3d25-3c6c-460e-8168-c700d9d431c5")
 	)
 	(segment
 		(start 97.028 77.47)
