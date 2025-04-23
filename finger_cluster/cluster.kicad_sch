@@ -3150,7 +3150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
 			(at 22.86 17.78 0)
 			(effects
 				(font
@@ -3352,7 +3352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO14580_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
 			(at 15.24 17.78 0)
 			(effects
 				(font
